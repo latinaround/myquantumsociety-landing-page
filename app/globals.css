@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #8a59ad;
+  --secondary-color: #598ead;
+}
+
+html,
+body {
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+.landing-section {
+  padding: 120px 0;
+  position: relative;
+  z-index: 9;
+}
+
+.hero-parallax::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/Quantum-Chip_1718276456.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-origin: center center;
+  transition: transform 30s ease-in-out;
+  z-index: -1;
+}
+
+@keyframes scaleBackground {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blur-on-scroll {
+  transition: filter 1s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
+  opacity: 1;
+}
+
+.blurred {
+  /* filter: blur(5px); */
+  /* opacity: 0.8; */
+  top: 30%;
+}
+
+.blurred-bg::before {
+  animation: scaleBackground 30s infinite alternate;
+}
+
+.hero-image {
+  width: 700px;
+}
+
+@media screen and(max-width: 430px) {
+  .hero-image {
+    width: 4700px !important;
+  }
+}
+
+.advantage ul {
+  margin: 0;
+  padding: 0;
+}
+
+.advantage ul li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 28px;
+}
+
+.advantage ul li::before {
+  background-image: url("../public/images/arrow-white.svg");
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 5px;
+  z-index: 9;
+}
