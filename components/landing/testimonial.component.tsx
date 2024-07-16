@@ -32,10 +32,10 @@ const TestimonialComponent = () => {
                 </div>
                 <div className="pl-4 pt-14">
                   <p className="font-light text-gray-800 text-2xl text-left ml-4 italic">
-                    Nature isn't classical, dammit, and if you want to make a
-                    simulation of nature, you'd better make it quantum
-                    mechanical, and by golly it's a wonderful problem, because
-                    it doesn't look so easy.
+                    Nature isn&apos;t classical, dammit, and if you want to make a
+                    simulation of nature, you&apos;d better make it quantum
+                    mechanical, and by golly it&apos;s a wonderful problem, because
+                    it doesn&apos;t look so easy.
                   </p>
                 </div>
               </div>
@@ -46,11 +46,11 @@ const TestimonialComponent = () => {
                     src="https://cdn.britannica.com/83/21083-050-C53FAB08/Richard-Feynman.jpg"
                     height={56}
                     width={56}
-                    alt="Richard Fienman"
+                    alt="Richard Feynman"
                   />
                 </div>
                 <div className="dtail text-left">
-                  <h4 className="font-bold text-black">Richard Fienman</h4>
+                  <h4 className="font-bold text-black">Richard Feynman</h4>
                   <p className="text-gray-500">Theoretical physicist</p>
                 </div>
               </div>
