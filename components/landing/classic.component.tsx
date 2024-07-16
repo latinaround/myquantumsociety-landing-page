@@ -21,11 +21,11 @@ const ClassicComponent = () => {
                   <text
                     x="50"
                     y="35"
-                    font-family="serif"
-                    font-size="30"
+                    fontFamily="serif"
+                    fontSize="30"
                     fill="#FFFFFF"
-                    dominant-baseline="middle"
-                    text-anchor="middle"
+                    dominantBaseline="middle"
+                    textAnchor="middle"
                   >
                     (0, 1)
                   </text>
@@ -53,11 +53,11 @@ const ClassicComponent = () => {
                   <text
                     x="250"
                     y="35"
-                    font-family="serif"
-                    font-size="30"
+                    fontFamily="serif"
+                    fontSize="30"
                     fill="#FFFFFF"
-                    dominant-baseline="middle"
-                    text-anchor="middle"
+                    dominantBaseline="middle"
+                    textAnchor="middle"
                   >
                     a₀|0⟩ + a₁|1⟩ + ⋯ + aₙ₋₁|n - 1⟩
                   </text>
