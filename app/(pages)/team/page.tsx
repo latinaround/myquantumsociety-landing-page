@@ -26,7 +26,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
 
           <p>
             With a background in [field], [Name] leads our company with a vision
-            for leveraging quantum computing to solve some of the world's most
+            for leveraging quantum computing to solve some of the world&apos;s most
             complex problems. [His/Her] leadership is characterized by a blend
             of scientific expertise and a strategic approach to innovation.
           </p>
