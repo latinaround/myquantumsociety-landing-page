@@ -70,7 +70,7 @@ const ClassicComponent = () => {
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image
-                  src="/images/wigner/wigner.png"
+                  src="/images/wagner/wagner.png"
                   alt="Wigner 0"
                   width={256}
                   height={150}
@@ -82,7 +82,7 @@ const ClassicComponent = () => {
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image
-                  src="/images/wigner/wigner1.png"
+                  src="/images/wagner/wagner1.png"
                   alt="Wigner 1"
                   width={256}
                   height={150}
@@ -94,7 +94,7 @@ const ClassicComponent = () => {
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image
-                  src="/images/wigner/wigner2.png"
+                  src="/images/wagner/wagner2.png"
                   alt="Wigner 2"
                   width={256}
                   height={150}
@@ -106,7 +106,7 @@ const ClassicComponent = () => {
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image
-                  src="/images/wigner/wigner3.png"
+                  src="/images/wagner/wagner3.png"
                   alt="Wigner 3"
                   width={256}
                   height={150}
