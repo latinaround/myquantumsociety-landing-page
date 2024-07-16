@@ -13,7 +13,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
         <div className="container mx-auto">
           <p className="mb-4">
             Our team is composed of dedicated research scientists, industry
-            experts, and innovators from some of the world’s leading
+            experts, and innovators from some of the world&apos;s leading
             institutions. United by a shared passion for quantum computing and a
             commitment to pushing the boundaries of technology, we are
             pioneering new frontiers in computational science.
