@@ -19,10 +19,11 @@ body {
   z-index: 9;
 }
 
-.hero {
+/* for changing the front of the screen */
+/* .hero {
   min-height: 100vh;
   background-image: linear-gradient(180deg, #1A960D 0%, #4DAF3F 25%, #6DC659 71%, #5FC442 89%, #6ECC57 100%);
-}
+} */
 
 .hero-parallax::before {
   content: '';
@@ -110,8 +111,8 @@ body {
   top: 5px;
   z-index: 9;
 }
-
+/* change button to purple!
 .btn-success {
-  background-color: #8a59ad; /* purple color */;
+  background-color: #8a59ad;
   color: white;
-}
+} */
