@@ -8,6 +8,7 @@ export * from "./landing/llm.component"
 export * from "./landing/classic.component"
 export * from "./landing/advantage-of-model.component"
 export * from "./landing/related-papers.component"
+export * from "./landing/photonics.component"
 
 // COMMON
 export * from "./common/accordion"
