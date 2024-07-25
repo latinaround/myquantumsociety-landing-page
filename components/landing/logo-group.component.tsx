@@ -33,14 +33,20 @@ const LogoGroupComponent = () => {
             />
             <img
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="./images/intel.png"
-              alt="INTEL"
+              src="./images/baesystems.png"
+              alt="BAEsystems"
               height={48}
             />
             <img
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
               src="./images/samsung-venture.png"
               alt="Samsung Venture"
+              height={48}
+            />
+            <img
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              src="./images/viviQ.png"
+              alt="viviQ"
               height={48}
             />
           </div>
