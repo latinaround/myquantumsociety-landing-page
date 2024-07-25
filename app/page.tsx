@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <main className="w-full">
       <HeroOneComponent />
-      <LogoGroupComponent />
       <TestimonialComponent />
-      <LlmComponent />
       <ClassicComponent />
+      <LlmComponent />
       <AdvantageOfModelComponent />
       <RelatedPapersComponent />
+      <LogoGroupComponent />
     </main>
   );
 }
