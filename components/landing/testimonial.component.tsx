@@ -10,16 +10,22 @@ const TestimonialComponent = () => {
       <div className="container mx-auto px-3">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="down" delay={100} triggerOnce>
+            <h1 className="sm:text-6xl text-4xl font-bold text-white mb-4 leading-relaxed">
+              Why Analog?
+            </h1>
+          </Fade>
+          <Fade direction="down" delay={100} triggerOnce>
             <h2 className="sm:text-4xl text-2xl font-medium text-white mb-4 leading-relaxed">
               Nature is continuous, not binary.
             </h2>
           </Fade>
           <Fade direction="up" delay={200} triggerOnce>
-            <div className=" sm:w-[65%] mx-auto mb-9">
+            <div className="sm:w-[65%] mx-auto mb-9">
               <p className="text-xl font-light">
-                We believe that the future of quantum computing will be
-                Photonics-based on the Continuous Variable model of quantum
-                computing.
+                We are using the binary system in digital computing because of the ON and OFF switches of transistors. It is a hardware constraint that need not be dragged into the quantum world.
+              </p>
+              <p className="text-xl font-light mt-4">
+                Quantum systems are continuous. In quantum devices for computing, we are free to use the continuous variable logic implemented in Analog Quantum Computing.
               </p>
             </div>
           </Fade>

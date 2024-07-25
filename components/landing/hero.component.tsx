@@ -21,7 +21,10 @@ const HeroComponent = () => {
   }, []);
 
   return (
-    <section className={`hero hero-parallax min-h-screen relative blurred-bg`}>
+    <section
+      className={`hero hero-parallax min-h-screen relative`}
+      style={{ backgroundImage: "url('./images/light-web.png')" }}
+    >
       <div className="hero-overlay"></div>
       <div
         className={`hero-content text-center text-neutral-content fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 ease-in-out ${
@@ -29,11 +32,11 @@ const HeroComponent = () => {
         }`}
       >
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold text-white">
-            Driving Quantum Innovations for Human Progress
+          <h1 className="mb-5 text-5xl font-bold text">
+            Quantum Innovations with Light:
           </h1>
           <p className="mb-5 text-white">
-            We are building Quantum Large Language Models
+            Building Quantum Large Language Models using Photonic Analog Quantum Computing
           </p>
           <button className="btn btn-primary">
             Join Open Source Community

@@ -7,18 +7,20 @@ import {
   LogoGroupComponent,
   RelatedPapersComponent,
   TestimonialComponent,
+  PhotonicComponent,
 } from "@/components";
 
 export default function Home() {
   return (
     <main className="w-full">
       <HeroOneComponent />
-      <LogoGroupComponent />
+      <PhotonicComponent />
       <TestimonialComponent />
-      <LlmComponent />
       <ClassicComponent />
+      <LlmComponent />
       <AdvantageOfModelComponent />
       <RelatedPapersComponent />
+      <LogoGroupComponent />
     </main>
   );
 }
