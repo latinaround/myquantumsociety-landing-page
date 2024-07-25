@@ -14,6 +14,17 @@ const ClassicComponent = () => {
           </Fade>
 
           <Fade direction="up" delay={200} triggerOnce>
+            <div className="sm:w-[65%] mx-auto mb-9">
+              <p className="text-xl font-light">
+                Moving from the computational space consisting of two points {0, 1} to the space of infinitely many points gives a huge advantage of encoding and processing information.
+              </p>
+              <p className="text-xl font-light mt-4">
+                The superposition property of quantum states gives inherent parallelism in quantum computing. With the higher dimensional computational space in Analog Quantum Computing, a higher level of parallelism is achieved.
+              </p>
+            </div>
+          </Fade>
+
+          <Fade direction="up" delay={200} triggerOnce>
             <div className="flex sm:flex-row flex-col gap-8 justify-center items-center w-full max-w-4xl mx-auto">
               <div className="flex-1 flex flex-col justify-center items-center">
                 <h4 className="font-semibold text-xl">Classical</h4>
@@ -77,7 +88,7 @@ const ClassicComponent = () => {
                 />
               </div>
 
-              <p>Wagner 0</p>
+              <p>Wagner function of |0⟩</p>
             </div>
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
@@ -88,7 +99,7 @@ const ClassicComponent = () => {
                   height={150}
                 />
               </div>
-              <p>Wagner 1</p>
+              <p>Wagner function of |1⟩</p>
             </div>
 
             <div className="flex-1 flex-col flex justify-center items-center">
@@ -100,7 +111,7 @@ const ClassicComponent = () => {
                   height={150}
                 />
               </div>
-              <p>Wagner 2</p>
+              <p>Wagner function of |2⟩</p>
             </div>
 
             <div className="flex-1 flex-col flex justify-center items-center">
@@ -112,7 +123,7 @@ const ClassicComponent = () => {
                   height={150}
                 />
               </div>
-              <p>Wagner 3</p>
+              <p>Wagner function of |3⟩</p>
             </div>
           </div>
 
