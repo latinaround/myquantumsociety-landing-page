@@ -1,20 +1,22 @@
 "use client";
+import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 
 const ClassicComponent = () => {
+
   return (
-    <section className="landing-section cscq bg-black text-white min-h-80 py-12 text-center">
-      <div className="container mx-auto px-3">
+    <section className="landing-section cscq relative bg-gray-900 text-white min-h-80 py-12 text-center">
+      <div className="container mx-auto px-3 relative z-10">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="up" delay={100} triggerOnce>
-            <h2 className="sm:text-4xl text-2xl font-medium text-white mb-16 leading-relaxed">
+            <h2 className="sm:text-4xl text-2xl font-medium mb-16 leading-relaxed">
               Computational Space: Classical to Quantum
             </h2>
           </Fade>
 
           <Fade direction="up" delay={200} triggerOnce>
-            <div className="sm:w-[65%] mx-auto mb-9">
+            <div className="w-full mx-auto mb-9">
               <p className="text-xl font-light">
                 Moving from the computational space consisting of 0 and 1 to the space of infinitely many points gives a huge advantage of encoding and processing information.
               </p>
@@ -48,11 +50,11 @@ const ClassicComponent = () => {
                   <text
                     x="100"
                     y="35"
-                    font-family="serif"
-                    font-size="30"
+                    fontFamily="serif"
+                    fontSize="30"
                     fill="#FFFFFF"
-                    dominant-baseline="middle"
-                    text-anchor="middle"
+                    dominantBaseline="middle"
+                    textAnchor="middle"
                   >
                     α|0⟩ + β|1⟩
                   </text>
@@ -87,7 +89,6 @@ const ClassicComponent = () => {
                   height={150}
                 />
               </div>
-
               <p>Wagner function of |0⟩</p>
             </div>
             <div className="flex-1 flex-col flex justify-center items-center">
@@ -101,7 +102,6 @@ const ClassicComponent = () => {
               </div>
               <p>Wagner function of |1⟩</p>
             </div>
-
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image
@@ -113,7 +113,6 @@ const ClassicComponent = () => {
               </div>
               <p>Wagner function of |2⟩</p>
             </div>
-
             <div className="flex-1 flex-col flex justify-center items-center">
               <div className="bg-white p-8 rounded-lg mb-4">
                 <Image

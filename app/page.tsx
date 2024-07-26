@@ -18,7 +18,7 @@ export default function Home() {
       <TestimonialComponent />
       <ClassicComponent />
       <LlmComponent />
-      <AdvantageOfModelComponent />
+      {/* <AdvantageOfModelComponent /> */}
       <RelatedPapersComponent />
       <LogoGroupComponent />
     </main>

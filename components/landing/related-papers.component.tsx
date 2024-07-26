@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const RelatedPapersComponent = () => {
   return (
-    <section className="landing-section papers bg-black min-h-80 py-12 text-center">
+    <section className="landing-section papers bg-gray-900 text-white min-h-80 py-12 text-center">
       <div className="container mx-auto px-3">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="down" delay={30} triggerOnce>

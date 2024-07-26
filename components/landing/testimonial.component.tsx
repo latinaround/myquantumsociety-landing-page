@@ -4,37 +4,46 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 const TestimonialComponent = () => {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.querySelector('.background-reveal');
+      const rect = element.getBoundingClientRect();
+      const isInViewport = rect.top < window.innerHeight && rect.bottom >= 0;
+      if (isInViewport) {
+        element.classList.add('revealed');
+      } else {
+        element.classList.remove('revealed');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <section className="landing-section testimonial bg-black text-white min-h-80 py-12 text-center">
-      <div className="container mx-auto px-3">
-        <div className="flex flex-col justify-center space-y-8">
+    <section className="landing-section testimonial relative bg-gray-900 text-white min-h-80 py-8 text-center">
+      <div className="background-reveal absolute inset-0 z-0 bg-cover bg-left opacity-0 transition-opacity duration-1000"
+           style={{ backgroundImage: "url('/images/design1.png')" }}></div>
+      <div className="container mx-auto px-3 relative z-10">
+        <div className="flex flex-col justify-center space-y-6">
           <Fade direction="down" delay={100} triggerOnce>
-            <h1 className="sm:text-6xl text-4xl font-bold text-white mb-4 leading-relaxed">
+            <h1 className="sm:text-6xl text-4xl font-bold mb-2 leading-relaxed">
               Why Analog?
             </h1>
           </Fade>
           <Fade direction="down" delay={100} triggerOnce>
-            <h2 className="sm:text-4xl text-2xl font-medium text-white mb-4 leading-relaxed">
+            <h2 className="sm:text-4xl text-2xl font-medium mb-2 leading-relaxed">
               Nature is continuous, not binary.
             </h2>
           </Fade>
-          <Fade direction="up" delay={200} triggerOnce>
-            <div className="sm:w-[65%] mx-auto mb-9">
-              <p className="text-xl font-light">
-                We are using the binary system in digital computing because of the ON and OFF switches of transistors. It is a hardware constraint that need not be dragged into the quantum world.
-              </p>
-              <p className="text-xl font-light mt-4">
-                Quantum systems are continuous. In quantum devices for computing, we are free to use the continuous variable logic implemented in Analog Quantum Computing.
-              </p>
-            </div>
-          </Fade>
 
-          <Fade direction="up" delay={400} triggerOnce>
-            <div className="testimonial-card rounded-xl bg-white p-6 sm:w-1/2 lg:1/3 mx-auto">
+          <Fade direction="up" delay={500} triggerOnce>
+            <div className="testimonial-card rounded-xl bg-white text-black p-6 sm:w-1/2 lg:w-1/3 mx-auto">
               <div className="relative mb-6">
-                <div className="text-black absolute top-0">
-                  <img src="./images/left-quote.svg" alt="quote" width={100} />
+                <div className="absolute top-0">
+                  <Image src="/images/left-quote.svg" alt="quote" width={100} height={100} />
                 </div>
                 <div className="pl-4 pt-14">
                   <p className="font-light text-gray-800 text-2xl text-left ml-4 italic">
@@ -55,14 +64,24 @@ const TestimonialComponent = () => {
                     alt="Richard Feynman"
                   />
                 </div>
-                <div className="dtail text-left">
+                <div className="details text-left">
                   <h4 className="font-bold text-black">Richard Feynman</h4>
                   <p className="text-gray-500">Theoretical physicist</p>
                 </div>
               </div>
             </div>
           </Fade>
-          <div className=""></div>
+
+          <Fade direction="up" delay={500} triggerOnce>
+            <div className="w-[95%] mx-auto mt-12">
+              <p className="text-xl font-light">
+                We are using the binary system in digital computing because of the ON and OFF switches of transistors. It is a hardware constraint that need not be dragged into the quantum world.
+              </p>
+              <p className="text-xl font-light mt-4">
+                Quantum systems are continuous. In quantum devices for computing, we are free to use the continuous variable logic implemented in Analog Quantum Computing.
+              </p>
+            </div>
+          </Fade>
         </div>
       </div>
     </section>
