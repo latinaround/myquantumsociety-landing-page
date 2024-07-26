@@ -11,12 +11,13 @@ interface Props {
 const AboutPage: NextPage<Props> = ({ params }) => {
   return (
     <main className="w-full">
-      <div className="bg-primary min-h-80 flex justify-center items-center">
-        <h1 className="sm:text-6xl text-4xl text-white font-bold">About</h1>
+      <div className="bg-primary min-h-80 flex justify-center items-center relative">
+        <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design1.png')" }}></div>
+        <h1 className="sm:text-6xl text-4xl text-white font-bold relative">About</h1>
       </div>
       <div className="min-h-screen p-6">
         <div className="container mx-auto">
-          <h2 className="text-xl mb-4 font-semibold text-gray-900">
+          <h2 className="text-xl mb-4 font-semibold text-white">
             Driving Quantum Innovations for Human Progress
           </h2>
 
@@ -28,7 +29,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
             share our vision and mission.
           </p>
 
-          <h2 className="text-xl my-4 font-semibold text-gray-900">
+          <h2 className="text-xl my-4 font-semibold text-white">
             Vision and Mission
           </h2>
 
@@ -41,7 +42,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
             dimensions of computational power and efficiency.
           </p>
 
-          <h2 className="text-xl my-4 font-semibold text-gray-900">
+          <h2 className="text-xl my-4 font-semibold text-white">
             Innovation in Quantum Computing
           </h2>
 
@@ -54,7 +55,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
             that can process information in ways previously unimaginable.
           </p>
 
-          <h2 className="text-xl my-4 font-semibold text-gray-900">
+          <h2 className="text-xl my-4 font-semibold text-white">
             Pioneering Quantum LLMs
           </h2>
 
@@ -66,7 +67,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
             various industries and fields of research.
           </p>
 
-          <h2 className="text-xl my-4 font-semibold text-gray-900">
+          <h2 className="text-xl my-4 font-semibold text-white">
             Our Commitment
           </h2>
 

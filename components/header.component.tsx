@@ -6,7 +6,7 @@ import { Language } from "@/app/_lib/language/en";
 
 const navigation = [
   { name: "About", href: "/about" },
-  { name: "Team", href: "/team" },
+  // { name: "Team", href: "/team" },
   { name: "Papers", href: "/papers" },
   { name: "Open Source", href: "https://github.com/qaintumai/quantum" },
   { name: "Events", href: "/events" },
