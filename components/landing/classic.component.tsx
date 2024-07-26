@@ -6,7 +6,7 @@ import Image from "next/image";
 const ClassicComponent = () => {
 
   return (
-    <section className="landing-section cscq relative bg-gray-900 text-white min-h-80 py-12 text-center">
+    <section className="landing-section cscq relative bg-white text-black min-h-80 py-12 text-center">
       <div className="container mx-auto px-3 relative z-10">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="up" delay={100} triggerOnce>

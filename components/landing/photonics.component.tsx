@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 const PhotonicComponent = () => {
   return (
-    <section className="landing-section photonic bg-gray-900 text-white min-h-80 py-12 text-center relative">
+    <section className="landing-section photonic bg-white text-black min-h-80 py-12 text-center relative">
       <div className="container mx-auto px-3">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="down" delay={30} triggerOnce>
@@ -20,7 +20,7 @@ const PhotonicComponent = () => {
               <p className="text-xl font-light mt-4">
                 Advantages:
               </p>
-              <ul className="list-disc list-inside text-xl font-light">
+              <ul className="list-disc list-inside text-xl font-light pl-8 text-left">
                 <li>Compatible with the existing communications infrastructure.</li>
                 <li>Operates at room temperature.</li>
                 <li>Higher dimensional computational space.</li>

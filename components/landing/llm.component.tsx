@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 const LlmComponent = () => {
   return (
-    <section className="landing-section llm bg-gray-900 text-white min-h-80 py-12 text-center relative">
+    <section className="landing-section llm bg-gray-800 text-white min-h-80 py-12 text-center relative">
       <div className="container mx-auto px-3">
         <div className="flex flex-col justify-center space-y-8">
           <Fade direction="down" delay={30} triggerOnce>

@@ -45,7 +45,7 @@ const LogoGroupComponent = () => {
               height={48}
             />
             <img
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 filter grayscale"
               src="./images/vividQ.png"
               alt="vividQ"
               height={48}

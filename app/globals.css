@@ -117,15 +117,4 @@ body {
   color: white;
 } */
 
-.background-reveal {
-  opacity: 1;
-  background-size: 100%; /* Adjusted to zoom out the image */
-}
-
-.background-reveal.revealed {
-  opacity: 1;
-  background-position: right;
-  transition: background-position 2s ease-out, opacity 1s ease-out;
-}
-
 

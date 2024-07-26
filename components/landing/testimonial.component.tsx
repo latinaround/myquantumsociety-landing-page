@@ -4,28 +4,8 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 const TestimonialComponent = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.querySelector('.background-reveal');
-      const rect = element.getBoundingClientRect();
-      const isInViewport = rect.top < window.innerHeight && rect.bottom >= 0;
-      if (isInViewport) {
-        element.classList.add('revealed');
-      } else {
-        element.classList.remove('revealed');
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <section className="landing-section testimonial relative bg-gray-900 text-white min-h-80 py-8 text-center">
-      <div className="background-reveal absolute inset-0 z-0 bg-cover bg-left opacity-0 transition-opacity duration-1000"
-           style={{ backgroundImage: "url('/images/design1.png')" }}></div>
+    <section className="landing-section testimonial relative bg-gray-800 text-white min-h-80 py-8 text-center">
       <div className="container mx-auto px-3 relative z-10">
         <div className="flex flex-col justify-center space-y-6">
           <Fade direction="down" delay={100} triggerOnce>
