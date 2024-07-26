@@ -12,7 +12,7 @@ const ContactPage: NextPage<Props> = ({ params }) => {
   return (
     <main className="w-full">
       <div className="bg-primary min-h-80 flex justify-center items-center relative">
-        <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design1.png')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Contact</h1>
       </div>
       <div className="min-h-screen p-6">
