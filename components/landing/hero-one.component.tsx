@@ -13,7 +13,7 @@ const HeroOneComponent = () => {
             <Fade direction="up" delay={100} triggerOnce>
               <h1 className="text-6xl font-bold leading-relax">
                 <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
-                  Quantum Innovations with Light:
+                  Quantum Intelligence with Light:
                 </span>
               </h1>
             </Fade>

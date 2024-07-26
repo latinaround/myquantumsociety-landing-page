@@ -34,7 +34,7 @@ const HeroComponent = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold text-white">
             <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
-              Quantum Innovations with Light:
+              Quantum Intelligence with Light:
             </span>
           </h1>
           <p className="mb-5 text-white">
