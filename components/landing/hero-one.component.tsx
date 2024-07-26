@@ -1,5 +1,6 @@
 "use client";
 import { Fade } from "react-awesome-reveal";
+
 const HeroOneComponent = () => {
   return (
     <div
@@ -8,36 +9,26 @@ const HeroOneComponent = () => {
     >
       <div className="container mx-auto sm:px-3 pt-16">
         <div className="hero-content mx-auto flex-col-reverse justify-between items-center lg:flex-row-reverse text-white">
-          {/* If wanting a photo to fade in */}
-          {/* <Fade direction="right" delay={10} triggerOnce>
-            <div className="w-[400px] sm:w-[700px] mb-12">
-              <img src="./images/light-web.png" className="" />
-            </div>
-          </Fade> */}
-
           <div className="w-1/7 sm:w-full mb-12 text-left absolute bottom-10 left-10">
             <Fade direction="up" delay={100} triggerOnce>
-              <h1 className=" text-6xl font-normal leading-relax">
-                Quantum Innovations with Light:
+              <h1 className="text-6xl font-bold leading-relax">
+                <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
+                  Quantum Innovations with Light:
+                </span>
               </h1>
             </Fade>
             <Fade direction="up" delay={200} triggerOnce>
               <p className="py-6 text-2xl font-extralight">
-                Building Quantum Large Language Models using Photonic Analog Quantum Computing
+                <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
+                  Building Quantum Large Language Models using Photonic Analog Quantum Computing
+                </span>
               </p>
             </Fade>
-
             <Fade direction="up" delay={300} triggerOnce>
               <div className="flex items-center space-x-4">
-                <button className="btn btn-success text-white">
+                {/* <button className="btn btn-success text-white">
                   Join Open Source Community
-                </button>
-
-                {/* <div className="lg:flex lg:justify-end">
-                  <a href="#" className="text-sm font-semibold leading-6">
-                    Find here <span aria-hidden="true">&rarr;</span>
-                  </a>
-                </div> */}
+                </button> */}
               </div>
             </Fade>
           </div>

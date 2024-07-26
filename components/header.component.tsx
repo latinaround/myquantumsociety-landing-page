@@ -6,10 +6,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Language } from "@/app/_lib/language/en";
 
 const navigation = [
-  { name: "Papers", href: "/papers" },
-  { name: "Team", href: "/team" },
-  { name: "Events", href: "/events" },
   { name: "About", href: "/about" },
+  { name: "Team", href: "/team" },
+  { name: "Papers", href: "/papers" },
+  { name: "Open Source", href: "/open-source" },
+  { name: "Events", href: "/events" },
+  { name: "Careers", href: "/careers" },
+  { name: "Contact", href: "/contact" },
 ];
 const HeaderComponent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,12 +36,13 @@ const HeaderComponent = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white bg-opacity-40 backdrop-blur-md shadow-md text-black"
-          : "bg-transparent text-white"
+  className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${
+      isScrolled
+        ? "bg-gray-900 bg-opacity-90 backdrop-blur-md shadow-md text-white"
+        : "bg-gray-900 bg-opacity-90 text-white"
       }`}
     >
+
       <div className="container mx-auto px-3">
         <nav
           className="flex items-center justify-between py-6"
@@ -91,7 +95,8 @@ const HeaderComponent = () => {
           onClose={setMobileMenuOpen}
         >
           <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-800 text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+
             <div className="flex items-center justify-between">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">QuantumAi</span>
@@ -117,10 +122,11 @@ const HeaderComponent = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-700"
                     >
                       {item.name}
                     </a>
+                  
                   ))}
                 </div>
                 {/* <div className="py-6">

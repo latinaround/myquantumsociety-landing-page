@@ -32,15 +32,19 @@ const HeroComponent = () => {
         }`}
       >
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold text">
-            Quantum Innovations with Light:
+          <h1 className="mb-5 text-5xl font-bold text-white">
+            <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
+              Quantum Innovations with Light:
+            </span>
           </h1>
           <p className="mb-5 text-white">
-            Building Quantum Large Language Models using Photonic Analog Quantum Computing
+            <span className="bg-gray-800 bg-opacity-90 p-4 rounded-md inline-block">
+              Building Quantum Large Language Models using Photonic Analog Quantum Computing
+            </span>
           </p>
-          <button className="btn btn-primary">
+          {/* <button className="btn btn-primary">
             Join Open Source Community
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
