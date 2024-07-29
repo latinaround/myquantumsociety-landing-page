@@ -11,18 +11,17 @@ interface Props {
 const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
   return (
     <main className="w-full">
-      <div className="bg-primary min-h-80 flex justify-center items-center">
+      <div className="min-h-40 flex justify-center items-center">
         <h1 className="sm:text-6xl text-4xl text-white font-bold">
-          Terms and Conditions
         </h1>
       </div>
       <div className="min-h-screen p-6">
         <div className="container mx-auto text-left text-lg">
           <p>Effective Date: July 29, 2024</p>
           <p>
-            By accessing or using qAIntum.ai (the “Website”) and its services,
+            By accessing or using qAIntum.ai (the &quot;Website&quot;) and its services,
             you agree to comply with and be bound by these Terms and Conditions
-            (“Terms”). If you do not agree with these Terms, please do not use
+            (&quot;Terms&quot;). If you do not agree with these Terms, please do not use
             the Website or the services.
           </p>
 
@@ -35,9 +34,9 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
 
           <h2 className="text-2xl font-bold mt-6">2. Definitions</h2>
           <p>
-            "qAIntum.ai" refers to the website and services provided by
-            qAIntum.ai Inc. "User" refers to any individual or entity using the
-            services of qAIntum.ai. "Services" includes quantum neural networks,
+          &quot;qAIntum.ai&quot; refers to the website and services provided by
+            qAIntum.ai Inc. &quot;User&quot; refers to any individual or entity using the
+            services of qAIntum.ai. &quot;Services&quot; includes quantum neural networks,
             quantum transformers, and future quantum large language models
             provided by qAIntum.ai.
           </p>
@@ -96,7 +95,7 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
 
           <h2 className="text-2xl font-bold mt-6">7. Disclaimers and Limitation of Liability</h2>
           <p>
-            <strong>Disclaimers:</strong> qAIntum.ai provides services "as is"
+            <strong>Disclaimers:</strong> qAIntum.ai provides services &quot;as is&quot;
             without any warranties, express or implied. We do not guarantee the
             accuracy, reliability, or availability of the services.
           </p>
