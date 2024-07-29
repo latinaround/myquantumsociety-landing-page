@@ -18,10 +18,39 @@ const roboto_mono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${Language.app.name}`,
-    template: `%s | ${Language.app.name}`,
+    default: 'qAIntum Inc',
+    template: `%s | qAIntum Inc`,
   },
-  description: "Quantum Ai",
+  description: "Quantum Intelligence with Light",
+  openGraph: {
+    type: 'website',
+    url: 'https://www.qaintum.ai/',
+    title: 'qAIntum Inc',
+    description: 'Quantum Intelligence with Light',
+    images: [
+      {
+        url: 'https://www.qaintum.ai/images/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'qAIntum.ai Logo',
+      },
+    ],
+    siteName: 'qAIntum Inc',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@qaintumai',
+    title: 'qAIntum Inc',
+    description: 'Quantum Intelligence with Light',
+    images: [
+      {
+        url: 'https://www.qaintum.ai/images/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'qAIntum.ai Logo',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
