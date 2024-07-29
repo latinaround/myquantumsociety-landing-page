@@ -8,7 +8,7 @@ const navigation = [
   { name: "About", href: "/about" },
   // { name: "Team", href: "/team" },
   { name: "Papers", href: "/papers" },
-  { name: "Open Source", href: "https://github.com/qaintumai/quantum" },
+  { name: "Open Source", href: "/open-source" },
   { name: "Events", href: "/events" },
   { name: "Careers", href: "/careers" },
   { name: "Contact", href: "/contact" },
