@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         alt: 'qAIntum.ai Logo',
       },
     ],
-    site_name: 'qAIntum Inc',
+    siteName: 'qAIntum Inc',
   },
   twitter: {
     card: 'summary_large_image',
