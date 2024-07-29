@@ -2,7 +2,7 @@ const year = new Date().getFullYear();
 export const Language: any = {
   app: {
     name: 'qAIntum.ai',
-    slogan: 'Quantum Neural Network (QNN)',
+    slogan: 'Quantum Intelligence with Light',
     short: 'Q.AI',
     logo_text: 'qAIntum.ai',
     powered_by: 'Powered by qAIntum.ai',
