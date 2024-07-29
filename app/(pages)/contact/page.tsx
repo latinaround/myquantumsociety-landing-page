@@ -16,7 +16,7 @@ const ContactPage: NextPage<Props> = ({ params }) => {
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Contact</h1>
       </div>
       <div className="min-h-screen p-6">
-        <div className="container mx-auto">
+        <div className="container mx-auto text-white">
           <p>
             We would love to hear from you! Whether you have questions,
             feedback, or are interested in collaborating with us, please feel

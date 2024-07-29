@@ -116,5 +116,17 @@ body {
   background-color: #8a59ad;
   color: white;
 } */
+/* styles.css or within a <style jsx> block if using styled-jsx */
+.logo-crop {
+  height: 5em; /* Adjust em value as needed for the desired size */
+  width: auto;
+  object-fit: cover;
+  object-position: 50% 50%; /* Center the image */
+  clip-path: inset(15% 0 20% 0); /* Crop the sides */
+}
+
+.nav-limited-height {
+  max-height: 7rem; /* Adjust the value as needed */
+}
 
 

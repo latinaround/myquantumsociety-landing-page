@@ -43,13 +43,13 @@ const HeaderComponent = () => {
       }`}
     >
       <div className="container mx-auto px-3">
-        <nav className="flex items-center justify-between py-6" aria-label="Global">
+        <nav className="nav-limited-height flex items-center justify-between py-6" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">QuantumAi</span>
               <img
-                className="h-8 w-auto"
-                src="./images/logo-white.svg"
+                className="h-25 w-auto logo-crop"
+                src="./images/logo.svg"
                 alt={Language.app.name}
               />
             </a>
