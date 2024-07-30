@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Language } from "@/app/_lib/language/en";
 
 const navigation = [
+  { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   // { name: "Team", href: "/team" },
   { name: "Papers", href: "/papers" },
