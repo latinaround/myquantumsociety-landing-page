@@ -11,8 +11,8 @@ const FooterComponent = () => {
             <Image
               src="./images/logo.svg"
               alt={Language.app.name}
-              width={36}
-              height={36}
+              width={128}
+              height={128}
             />
           </a>
           <p>
@@ -49,8 +49,8 @@ const FooterComponent = () => {
           <a href="/team" className="link link-hover">
             Team
           </a>
-          <a href="/paper" className="link link-hover">
-            Paper
+          <a href="/papers" className="link link-hover">
+            Papers
           </a>
           <a href="/contact" className="link link-hover">
             Contact
