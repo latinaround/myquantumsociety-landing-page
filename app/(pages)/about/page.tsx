@@ -15,7 +15,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design1.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">About</h1>
       </div>
-      <div className="min-h-screen p-6" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
+      <div className="min-h-screen p-6 bg-gray-800">
         <div className="container mx-auto">
           <h2 className="text-xl mb-4 font-semibold text-white">
             Driving Quantum Innovations for Human Progress

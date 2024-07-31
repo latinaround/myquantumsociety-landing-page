@@ -10,12 +10,12 @@ interface Props {
 
 const ContactPage: NextPage<Props> = ({ params }) => {
   return (
-    <main className="w-full" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
-      <div className="bg-primary min-h-80 flex justify-center items-center relative" >
+    <main className="w-full">
+      <div className="min-h-80 flex justify-center items-center relative" >
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Contact</h1>
       </div>
-      <div className="min-h-screen p-6" style={{ backgroundColor: "var(oklch(var(--bc)/  1))" }}>
+      <div className="min-h-screen p-6 bg-gray-800">
         <div className="container mx-auto text-white">
           <p>
             We would love to hear from you! Whether you have questions,

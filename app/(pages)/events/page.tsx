@@ -15,7 +15,7 @@ const EventPage: NextPage<Props> = ({ params }) => {
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Events</h1>
       </div>
-      <div className="min-h-screen p-6" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
+      <div className="min-h-screen p-6 bg-gray-800">
         <div className="container mx-auto">
           <section className="mb-12">
             <div className="bg-yellow-300 text-black p-4 rounded-lg mb-6 text-center">

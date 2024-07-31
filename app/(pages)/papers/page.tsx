@@ -15,7 +15,7 @@ const PaperPage: NextPage<Props> = ({ params }) => {
       <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design3.png')" }}></div>
       <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Papers</h1>
       </div>
-      <div className="min-h-screen p-6" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
+      <div className="min-h-screen p-6 bg-gray-800">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-start transform transition duration-500 hover:scale-105 hover:shadow-lg">
