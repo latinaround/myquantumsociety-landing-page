@@ -15,7 +15,7 @@ const EventPage: NextPage<Props> = ({ params }) => {
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Events</h1>
       </div>
-      <div className="min-h-screen p-6">
+      <div className="min-h-screen p-6" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
         <div className="container mx-auto">
           <section className="mb-12">
             <div className="bg-yellow-300 text-black p-4 rounded-lg mb-6 text-center">
@@ -44,6 +44,13 @@ const EventPage: NextPage<Props> = ({ params }) => {
                   allowFullScreen
                   className="max-w-full"
                 ></iframe>
+                <a 
+                  href="/images/Quantum_Internet_7_23.pptx" 
+                  download 
+                  className="text-blue-500 underline mt-2 inline-block"
+                >
+                  Download Lecture Slides
+                </a>
               </div>
               <div className="w-full sm:w-1/2 lg:w-5/12">
                 <iframe

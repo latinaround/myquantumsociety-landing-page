@@ -12,11 +12,11 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
   return (
     <main className="w-full">
       <div className="min-h-40 flex justify-center items-center">
-        <h1 className="sm:text-6xl text-4xl text-white font-bold">
+        <h1 className="sm:text-4xl text-3xl text-white font-bold">
         </h1>
       </div>
-      <div className="min-h-screen p-6">
-        <div className="container mx-auto text-left text-lg">
+      <div className="min-h-screen p-6" style={{ backgroundColor: "var(oklch(var(--bc) / 1))" }}>
+        <div className="container mx-auto text-left text-sm">
           <p>Effective Date: July 29, 2024</p>
           <p>
             By accessing or using qAIntum.ai (the &quot;Website&quot;) and its services,
@@ -25,23 +25,23 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
             the Website or the services.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">1. Introduction</h2>
+          <h2 className="text-xl font-bold mt-6">1. Introduction</h2>
           <p>
             Welcome to qAIntum.ai, a platform providing advanced quantum neural
             networks, quantum transformers, and future quantum large language
             models.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">2. Definitions</h2>
+          <h2 className="text-xl font-bold mt-6">2. Definitions</h2>
           <p>
-          &quot;qAIntum.ai&quot; refers to the website and services provided by
+            &quot;qAIntum.ai&quot; refers to the website and services provided by
             qAIntum.ai Inc. &quot;User&quot; refers to any individual or entity using the
             services of qAIntum.ai. &quot;Services&quot; includes quantum neural networks,
             quantum transformers, and future quantum large language models
             provided by qAIntum.ai.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">3. Use of the Website and Services</h2>
+          <h2 className="text-xl font-bold mt-6">3. Use of the Website and Services</h2>
           <p>
             <strong>Eligibility:</strong> You must be at least 18 years old to
             use our services. If you are under 18, you may use our services only
@@ -59,7 +59,7 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
             spamming, hacking, or uploading harmful content.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">4. Intellectual Property</h2>
+          <h2 className="text-xl font-bold mt-6">4. Intellectual Property</h2>
           <p>
             <strong>Ownership:</strong> All content, software, and technology on
             qAIntum.ai are the property of qAIntum.ai Inc. or its licensors.
@@ -71,7 +71,7 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
             without our explicit permission.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">5. User-Generated Content</h2>
+          <h2 className="text-xl font-bold mt-6">5. User-Generated Content</h2>
           <p>
             <strong>Responsibility:</strong> You are responsible for any content
             you submit or upload to the Website.
@@ -87,13 +87,13 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
             rights of others.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">6. Privacy Policy</h2>
+          <h2 className="text-xl font-bold mt-6">6. Privacy Policy</h2>
           <p>
             Please refer to our Privacy Policy for information on how we
             collect, use, and protect your personal data.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">7. Disclaimers and Limitation of Liability</h2>
+          <h2 className="text-xl font-bold mt-6">7. Disclaimers and Limitation of Liability</h2>
           <p>
             <strong>Disclaimers:</strong> qAIntum.ai provides services &quot;as is&quot;
             without any warranties, express or implied. We do not guarantee the
@@ -105,39 +105,39 @@ const TermsAndConditionPage: NextPage<Props> = ({ params }) => {
             arising from the use of the services.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">8. Indemnification</h2>
+          <h2 className="text-xl font-bold mt-6">8. Indemnification</h2>
           <p>
             You agree to indemnify and hold harmless qAIntum.ai Inc. from any
             claims, damages, losses, liabilities, and expenses arising from your
             use of the services.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">9. Modifications to Terms</h2>
+          <h2 className="text-xl font-bold mt-6">9. Modifications to Terms</h2>
           <p>
             We reserve the right to modify these Terms at any time. Significant
             changes will be communicated via email or through a notice on the
             Website.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">10. Termination</h2>
+          <h2 className="text-xl font-bold mt-6">10. Termination</h2>
           <p>
             We may terminate or suspend your access to the services at any time,
             with or without cause, including for breach of these Terms.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">11. Governing Law</h2>
+          <h2 className="text-xl font-bold mt-6">11. Governing Law</h2>
           <p>
             These Terms are governed by the laws of the US. Any disputes arising
             from these Terms will be resolved in the courts of the US.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">12. Contact Information</h2>
+          <h2 className="text-xl font-bold mt-6">12. Contact Information</h2>
           <p>
             If you have any questions or concerns about these Terms, please
             contact us at contact@qaintum.ai.
           </p>
 
-          <h2 className="text-2xl font-bold mt-6">13. Miscellaneous</h2>
+          <h2 className="text-xl font-bold mt-6">13. Miscellaneous</h2>
           <p>
             <strong>Entire Agreement:</strong> These Terms constitute the entire
             agreement between you and qAIntum.ai Inc.

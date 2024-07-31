@@ -11,7 +11,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Team</h1>
       </div>
-      <div className="min-h-screen p-6 flex flex-col items-center">
+      <div className="min-h-screen p-6 flex flex-col items-center" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
         <div className="container mx-auto text-white">
           <p className="mb-4">
             Our team is composed of dedicated research scientists, industry
@@ -57,7 +57,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
 
           <div className="space-y-6">
             <section>
-              <h2 className="text-2xl font-bold text-blue-600 my-4 border-b-2 pb-2">Engineering</h2>
+              <h2 className="text-2xl font-bold text-white my-4 border-b-2 pb-2">Engineering</h2>
               <ul className="list-disc list-inside text-lg">
                 <li>Sophie Choe</li>
                 <li>Max Ivry</li>
@@ -68,14 +68,14 @@ const TeamPage: NextPage<Props> = ({ params }) => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-green-600 my-4 border-b-2 pb-2">Operations</h2>
+              <h2 className="text-2xl font-bold text-white my-4 border-b-2 pb-2">Operations</h2>
               <ul className="list-disc list-inside text-lg">
                 <li>Briana Lee</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-red-600 my-4 border-b-2 pb-2">Curriculum Building</h2>
+              <h2 className="text-2xl font-bold text-white my-4 border-b-2 pb-2">Curriculum Building</h2>
               <ul className="list-disc list-inside text-lg">
                 <li>Astha Bhandari</li>
                 <li>Alexandra Haslund-Gourley</li>
@@ -83,7 +83,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-purple-600 my-4 border-b-2 pb-2">Advisors</h2>
+              <h2 className="text-2xl font-bold text-white my-4 border-b-2 pb-2">Advisors</h2>
               <ul className="list-disc list-inside text-lg">
                 <li>John Acken</li>
                 <li>Glenn Ballard</li>
