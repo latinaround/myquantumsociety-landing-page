@@ -11,7 +11,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
         <div className="absolute inset-0 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/images/design4.png')" }}></div>
         <h1 className="sm:text-6xl text-4xl text-white font-bold relative">Team</h1>
       </div>
-      <div className="min-h-screen p-6 flex flex-col items-center" style={{ backgroundColor: "var( oklch(var(--bc) / 1))" }}>
+      <div className="min-h-screen p-6 flex flex-col items-center bg-gray-800">
         <div className="container mx-auto text-white">
           <p className="mb-4">
             Our team is composed of dedicated research scientists, industry
