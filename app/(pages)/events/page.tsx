@@ -1,5 +1,5 @@
 import { Metadata, NextPage } from "next";
-
+import Image from "next/image";
 export const metadata: Metadata = {
   title: "Event",
 };
@@ -27,6 +27,26 @@ const EventPage: NextPage<Props> = ({ params }) => {
             <p className="text-xl font-light text-white mb-4">
               Join us for our Gen AI Lecture Series where we explore the latest advancements in generative AI and its applications.
             </p>
+            <h2 className="text-3xl font-bold text-white mb-4">Upcoming Lectures</h2>
+            <div className="flex justify-center mb-6">
+              <Image
+                src="/images/Banner 3.png"
+                alt="Upcoming Lecture: History of Quantum Computing"
+                width={800}
+                height={300}
+                className="rounded-lg"
+              />
+            </div>
+            <div className="text-center">
+              <a
+                href="https://www.eventbrite.com/e/quantum-gen-ai-lecture-series-tickets-967614941337?aff=oddtdtcreator"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#5CB6F9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#050A30] transition duration-300"
+              >
+                Register for the Lecture
+              </a>
+            </div>
           </section>
 
           <section>
