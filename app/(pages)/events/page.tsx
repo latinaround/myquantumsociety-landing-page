@@ -42,7 +42,7 @@ const EventPage: NextPage<Props> = ({ params }) => {
                 href="https://www.eventbrite.com/e/quantum-gen-ai-lecture-series-tickets-967614941337?aff=oddtdtcreator"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#5CB6F9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#050A30] transition duration-300"
+                className="inline-block bg-[#066FBF] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#5CB6F9] transition duration-300"
               >
                 Register for the Lecture
               </a>
