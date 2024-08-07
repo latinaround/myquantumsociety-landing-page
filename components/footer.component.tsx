@@ -20,6 +20,23 @@ const FooterComponent = () => {
             <br />
             {Language.app.copyright}
           </p>
+          <div className="flex space-x-4 mt-4">
+            <a href="https://www.linkedin.com/company/qaintum-ai/" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/social/linkedin.svg" alt="LinkedIn" width={30} height={30} />
+            </a>
+            <a href="https://github.com/qaintumai" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/social/github.svg" alt="GitHub" width={30} height={30} />
+            </a>
+            <a href="https://www.youtube.com/@qAIntumai-o1b" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/social/youtube.svg" alt="YouTube" width={30} height={30} />
+            </a>
+            <a href="https://twitter.com/qaintumai" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/social/twitter.svg" alt="Twitter" width={30} height={30} />
+            </a>
+            <a href="https://www.instagram.com/qaintumai" target="_blank" rel="noopener noreferrer">
+              <Image src="/images/social/instagram.svg" alt="Instagram" width={30} height={30} />
+            </a>
+          </div>
         </aside>
 
         <aside>
