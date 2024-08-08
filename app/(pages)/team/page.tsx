@@ -21,38 +21,13 @@ const TeamPage: NextPage<Props> = ({ params }) => {
             pioneering new frontiers in computational science.
           </p>
 
-          <h2 className="text-xl mb-4 font-semibold">Leadership</h2>
+          {/* <h2 className="text-xl mb-4 font-semibold">Leadership</h2>
           <h4 className="font-medium mb-2">Sophie Choe, CEO and Founder</h4>
           <p>
             An expert in quantum physics and photonics, Sophie Choe leads our company with a vision
             for leveraging quantum computing to solve some of the world&apos;s most
             complex problems. Her leadership is characterized by a blend
             of scientific expertise and a strategic approach to innovation.
-          </p>
-
-          {/* <h2 className="text-xl my-4 font-semibold">Research Scientists</h2>
-          <p>
-            Our research team includes distinguished scientists from top-tier
-            institutions such as MIT, Stanford, and Caltech. Their expertise
-            spans quantum mechanics, neural networks, and photonics, driving the
-            innovative solutions that are at the core of our QLLMs.
-          </p>
-
-          <h2 className="text-xl my-4 font-semibold text-gray-900">Industry Experts</h2>
-          <p>
-            Our industry experts bring a wealth of experience from leading
-            technology companies and research labs. Their practical insights
-            ensure that our quantum computing solutions are not only
-            groundbreaking but also applicable to real-world challenges.
-          </p>
-
-          <h2 className="text-xl my-4 font-semibold text-gray-900">Collaborative Spirit</h2>
-          <p>
-            At the heart of our team is a collaborative spirit. We foster an
-            environment where interdisciplinary collaboration is encouraged, and
-            innovative ideas are celebrated. This synergy enables us to tackle
-            the complexities of quantum computing and develop solutions that are
-            both visionary and practical.
           </p> */}
 
           <div className="space-y-6">
