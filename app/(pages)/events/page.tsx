@@ -18,12 +18,7 @@ const EventPage: NextPage<Props> = ({ params }) => {
       <div className="min-h-screen p-6 bg-gray-800">
         <div className="container mx-auto">
           <section className="mb-12">
-            <div className="bg-yellow-300 text-black p-4 rounded-lg mb-6 text-center">
-              <p className="text-lg font-medium">
-                Check here for regular updates about upcoming events!
-              </p>
-            </div>
-            <h2 className="text-3xl font-bold text-white mb-4">Gen AI Lecture Series</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">Quantum Gen AI Lecture Series</h2>
             <p className="text-xl font-light text-white mb-4">
               Join us for our Gen AI Lecture Series where we explore the latest advancements in generative AI and its applications.
             </p>
@@ -36,6 +31,25 @@ const EventPage: NextPage<Props> = ({ params }) => {
                 height={300}
                 className="rounded-lg"
               />
+            </div>
+            <div className="mb-6 relative" style={{ left: "50%", transform: "translateX(-400px)" }}>
+              <p className="text-xl font-bold text-white mb-1">
+                Date and Time:
+              </p>
+              <p className="text-xl font-light text-white mb-4">
+                Tuesday, August 27 · 5 - 7 PM PDT
+              </p>
+
+              <p className="text-xl font-bold text-white mb-1">
+                Location:
+              </p>
+              <p className="text-xl font-light text-white">
+                Sheppard Mullin
+                <br />
+                1540 El Camino Real #Suite 120
+                <br />
+                Menlo Park, CA 94025, United States
+              </p>
             </div>
             <div className="text-center">
               <a
