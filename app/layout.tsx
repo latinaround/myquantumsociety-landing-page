@@ -18,7 +18,7 @@ const roboto_mono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'A Quantum Software Company',
+    default: 'A Quantum LLM Company',
     template: `%s | qAIntum Inc`,
   },
   description: "Quantum Intelligence with Light",
