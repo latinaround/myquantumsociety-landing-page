@@ -182,7 +182,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
                       Vinay is our expert in Transformers and Large Language
                       Models, with a strong background in software engineering
                       and distributed computing. Currently a Machine Learning
-                      Data Scientist at TIAA, Vinay's Master’s thesis in
+                      Data Scientist at TIAA, Vinay&apos;s Master&apos;s thesis in
                       Electrical and Electronics from North Carolina State
                       University explored different optimization algorithms for
                       Transformers, contributing significantly to our QLLM
@@ -215,7 +215,7 @@ const TeamPage: NextPage<Props> = ({ params }) => {
                 <p style={{ textAlign: 'justify' }}>
                   Briana leads our business development and operations, focusing
                   on market strategy and commercial partnerships. Her expertise
-                  is pivotal in driving qAIntum.ai's growth and establishing
+                  is pivotal in driving qAIntum.ai&apos;s growth and establishing
                   strategic alliances that align with our vision.
                 </p>
               </div>

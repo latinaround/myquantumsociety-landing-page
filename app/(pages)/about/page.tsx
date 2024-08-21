@@ -128,7 +128,7 @@ const AboutPage: NextPage<Props> = ({ params }) => {
             The QLLM Project represents a pioneering effort to integrate quantum computing with 
             natural language processing, offering a transformative approach to AI development. 
             By addressing the limitations of classical AI models and exploring quantum 
-            computing's potential, qAIntum.ai aligns with the NSF America's Seed Fund mandate
+            computing&apos;s potential, qAIntum.ai aligns with the NSF America&apos;s Seed Fund mandate
             to support high-risk, high-reward innovations that have the potential to revolutionize 
             multiple industries.
             Join us in unlocking the future of AI with quantum-powered solutions.
